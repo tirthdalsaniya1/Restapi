@@ -1,0 +1,17 @@
+2024-05-23 22:13:19 INFO  LoggerExample:27 - This is an info message
+2024-05-23 22:13:19 WARN  LoggerExample:28 - This is a warning message
+2024-05-23 22:13:19 ERROR LoggerExample:29 - This is an error message
+2024-05-23 22:13:55 INFO  ApiTrial:27 - This is an info message
+2024-05-23 22:13:55 WARN  ApiTrial:28 - This is a warning message
+2024-05-23 22:13:55 ERROR ApiTrial:29 - This is an error message2024-05-27 17:50:10 INFO  ApiTrial:27 - This is an info message
+2024-05-27 17:50:10 WARN  ApiTrial:28 - This is a warning message
+2024-05-27 17:50:10 ERROR ApiTrial:29 - This is an error message
+2024-05-27 17:50:57 INFO  LoggerExample:27 - This is an info message
+2024-05-27 17:50:57 WARN  LoggerExample:28 - This is a warning message
+2024-05-27 17:50:57 ERROR LoggerExample:29 - This is an error message
+2024-05-27 17:51:44 INFO  LoggerExample:27 - This is an info message
+2024-05-27 17:51:44 WARN  LoggerExample:28 - This is a warning message
+2024-05-27 17:51:44 ERROR LoggerExample:29 - This is an error message
+2024-06-06 22:25:01 INFO  LoggerExample:27 - This is an info message
+2024-06-06 22:25:01 WARN  LoggerExample:28 - This is a warning message
+2024-06-06 22:25:01 ERROR LoggerExample:29 - This is an error message

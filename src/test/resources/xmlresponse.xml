@@ -1,0 +1,22 @@
+<response>
+	<status>success</status>
+	<data>
+		<user>
+			<id>123</id>
+			<name>John Doe</name>
+			<email>john.doe@example.com</email>
+			<roles>
+				<role>admin</role>
+				<role>user</role>
+			</roles>
+		</user>
+		<user>
+			<id>456</id>
+			<name>Jane Smith</name>
+			<email>jane.smith@example.com</email>
+			<roles>
+				<role>Guest</role>
+			</roles>
+		</user>
+	</data>
+</response>

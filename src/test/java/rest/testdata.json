@@ -1,0 +1,44 @@
+{
+	"post": {
+		"firstname": "Jim",
+		"lastname": "Brown",
+		"totalprice": 111,
+		"depositpaid": true,
+		"bookingdates": {
+			"checkin": "2018-01-01",
+			"checkout": "2019-01-01"
+		},
+		"additionalneeds": "Breakfast"
+	},
+	"put": {
+		"firstname": "James",
+		"lastname": "Brown",
+		"totalprice": 111,
+		"depositpaid": true,
+		"bookingdates": {
+			"checkin": "2018-01-01",
+			"checkout": "2019-01-01"
+		},
+		"additionalneeds": "Breakfast"
+	},
+	"auth": {
+		"username": "admin",
+		"password": "password123"
+	},
+	"petorder": {
+		"id": 0,
+		"petId": 0,
+		"quantity": 0,
+		"shipDate": "2024-05-16T16:31:36.166Z",
+		"status": "placed",
+		"complete": true
+	},
+	"keyValuesObject": {
+		"id": 1,
+		"petId": 2,
+		"quantity": 3,
+		"shipDate": 4,
+		"status": "placed",
+		"complete": "yes"
+	}
+}

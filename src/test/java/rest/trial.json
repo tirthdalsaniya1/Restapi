@@ -1,0 +1,100 @@
+{
+	"Test": {
+		"isbn": "123-456-222",
+		"author": {
+			"lastname": "Doe",
+			"firstname": "Jane"
+		},
+		"Location": [
+			{
+				"state": "MH",
+				"city": "Pune"
+			},
+			{
+				"state": "GJ",
+				"city": "Surat"
+			},
+			{
+				"state": "GOA",
+				"city": "Panjim"
+			}
+		],
+		"editor": {
+			"lastname": "Smith",
+			"firstname": "Jane"
+		},
+		"title": "The Ultimate Database Study Guide",
+		"category": [
+			"Non-Fiction",
+			"Technology"
+		]
+	},
+	"blackListedData": {
+		"1": "abc",
+		"2": "auto@gmail.com",
+		"3": "+33620187655",
+		"4": "FR7612548029981234567890161",
+		"5": "AXABFRPPXXX",
+		"6": "223399"
+	},
+	"complexJson": {
+		"name": "John Doe",
+		"age": 30,
+		"address": {
+			"street": "123 Main St",
+			"city": "Anytown",
+			"zipcode": "12345",
+			"coordinates": {
+				"latitude": 40.7128,
+				"longitude": -74.0060
+			}
+		},
+		"emails": [
+			"john.doe@example.com",
+			"jdoe@example.com"
+		],
+		"children": [
+			{
+				"name": "Alice",
+				"age": 5,
+				"hobbies": [
+					"Drawing",
+					"Reading"
+				]
+			},
+			{
+				"name": "Bob",
+				"age": 8,
+				"hobbies": [
+					"Cycling",
+					"Swimming"
+				]
+			}
+		],
+		"spouse": {
+			"name": "Jane Doe",
+			"age": 28,
+			"occupation": "Teacher",
+			"contacts": [
+				{
+					"type": "mobile",
+					"number": "123-456-7890"
+				},
+				{
+					"type": "email",
+					"address": "jane.doe@example.com"
+				}
+			]
+		},
+		"pets": [
+			{
+				"name": "Fluffy",
+				"type": "Cat"
+			},
+			{
+				"name": "Rover",
+				"type": "Dog"
+			}
+		]
+	}
+}
