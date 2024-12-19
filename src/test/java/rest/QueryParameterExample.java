@@ -7,6 +7,8 @@ import java.util.Map;
 
 import org.testng.annotations.Test;
 
+import io.restassured.response.Response;
+
 public class QueryParameterExample {
 
 	@Test
@@ -50,6 +52,13 @@ public class QueryParameterExample {
 	@Test
 	public void multipleQueryParam5() {
 		given().log().all().when().get("https://reqres.in/api/users?id=2&page=2").then().log().all();
+	}
+
+	@Test
+	public void multipleQueryParam05() {
+		Response resp = given().get("https://reqres.in/api/users?id=2&page=2");
+
+		System.out.println(resp.getStatusLine());
 	}
 
 }
