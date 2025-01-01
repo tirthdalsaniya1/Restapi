@@ -1,4 +1,4 @@
-package rest;
+package responsevalidation;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;

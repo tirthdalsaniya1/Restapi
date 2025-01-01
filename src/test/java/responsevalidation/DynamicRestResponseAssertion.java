@@ -1,4 +1,4 @@
-package rest;
+package responsevalidation;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
@@ -40,7 +40,7 @@ public class DynamicRestResponseAssertion {
 
 		// Validate every role in the list
 		given().baseUri("https://api.example.com").when().get("/api/users/123").then().statusCode(200).body("roles",
-				everyItem(isOneOf("admin", "user", "guest")));
+				everyItem(oneOf("admin", "user", "guest")));
 	}
 
 	@Test

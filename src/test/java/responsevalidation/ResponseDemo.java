@@ -1,4 +1,4 @@
-package rest;
+package responsevalidation;
 
 import org.testng.annotations.Test;
 
